@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		22C946E62726CE1C0066845E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C946E52726CE1C0066845E /* AppDelegate.swift */; };
 		22C946E82726CE1C0066845E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C946E72726CE1C0066845E /* SceneDelegate.swift */; };
-		22C946EA2726CE1C0066845E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C946E92726CE1C0066845E /* ViewController.swift */; };
 		22C946ED2726CE1C0066845E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C946EB2726CE1C0066845E /* Main.storyboard */; };
 		22C946EF2726CE200066845E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C946EE2726CE200066845E /* Assets.xcassets */; };
 		22C946F22726CE200066845E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C946F02726CE200066845E /* LaunchScreen.storyboard */; };
 		22C946FD2726CE210066845E /* HWbaikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C946FC2726CE210066845E /* HWbaikTests.swift */; };
 		22C947072726CE210066845E /* HWbaikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C947062726CE210066845E /* HWbaikUITests.swift */; };
 		22C947092726CE210066845E /* HWbaikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C947082726CE210066845E /* HWbaikUITestsLaunchTests.swift */; };
+		22F5057627280D27005EE11E /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5057427280D26005EE11E /* BannerCell.swift */; };
+		22F5057727280D27005EE11E /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F5057527280D26005EE11E /* BannerCell.xib */; };
+		22F5057A27280D90005EE11E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5057827280D90005EE11E /* ProductCell.swift */; };
+		22F5057B27280D90005EE11E /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F5057927280D90005EE11E /* ProductCell.xib */; };
+		22F5057D27280E28005EE11E /* ResturantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5057C27280E28005EE11E /* ResturantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		22C946E22726CE1C0066845E /* HWbaik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWbaik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C946E52726CE1C0066845E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C946E72726CE1C0066845E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22C946E92726CE1C0066845E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22C946EC2726CE1C0066845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22C946EE2726CE200066845E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C946F12726CE200066845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		22C947022726CE210066845E /* HWbaikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWbaikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C947062726CE210066845E /* HWbaikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWbaikUITests.swift; sourceTree = "<group>"; };
 		22C947082726CE210066845E /* HWbaikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWbaikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22F5057427280D26005EE11E /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		22F5057527280D26005EE11E /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
+		22F5057827280D90005EE11E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		22F5057927280D90005EE11E /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		22F5057C27280E28005EE11E /* ResturantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				22C946E52726CE1C0066845E /* AppDelegate.swift */,
 				22C946E72726CE1C0066845E /* SceneDelegate.swift */,
-				22C946E92726CE1C0066845E /* ViewController.swift */,
 				22C946EB2726CE1C0066845E /* Main.storyboard */,
 				22C946EE2726CE200066845E /* Assets.xcassets */,
 				22C946F02726CE200066845E /* LaunchScreen.storyboard */,
 				22C946F32726CE200066845E /* Info.plist */,
+				22F5057427280D26005EE11E /* BannerCell.swift */,
+				22F5057527280D26005EE11E /* BannerCell.xib */,
+				22F5057827280D90005EE11E /* ProductCell.swift */,
+				22F5057927280D90005EE11E /* ProductCell.xib */,
+				22F5057C27280E28005EE11E /* ResturantTableViewController.swift */,
 			);
 			path = HWbaik;
 			sourceTree = "<group>";
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C946F22726CE200066845E /* LaunchScreen.storyboard in Resources */,
+				22F5057727280D27005EE11E /* BannerCell.xib in Resources */,
+				22F5057B27280D90005EE11E /* ProductCell.xib in Resources */,
 				22C946EF2726CE200066845E /* Assets.xcassets in Resources */,
 				22C946ED2726CE1C0066845E /* Main.storyboard in Resources */,
 			);
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C946EA2726CE1C0066845E /* ViewController.swift in Sources */,
+				22F5057627280D27005EE11E /* BannerCell.swift in Sources */,
+				22F5057D27280E28005EE11E /* ResturantTableViewController.swift in Sources */,
+				22F5057A27280D90005EE11E /* ProductCell.swift in Sources */,
 				22C946E62726CE1C0066845E /* AppDelegate.swift in Sources */,
 				22C946E82726CE1C0066845E /* SceneDelegate.swift in Sources */,
 			);
